@@ -343,7 +343,7 @@ export function Classroom(props) {
           <group name="ACfbx011" rotation={[Math.PI / 2, 0, 0]}>
             <group name="RootNode054">
               <group name="AC011">
-                <mesh name="AC_Ac_0008" geometry={nodes.AC_Ac_0008.geometry} material={nodes.AC_Ac_0008.material} position={[-24.459, 29.56, -35.084]} scale={[0.347, 0.266, 0.401]} />
+                <mesh castShadow name="AC_Ac_0008" geometry={nodes.AC_Ac_0008.geometry} material={nodes.AC_Ac_0008.material} position={[-24.459, 29.56, -35.084]} scale={[0.347, 0.266, 0.401]} />
               </group>
             </group>
           </group>
@@ -385,7 +385,7 @@ export function Classroom(props) {
           <group name="44c15676bd92436aa0e032a2683df647fbx004" rotation={[Math.PI / 2, 0, 0]}>
             <group name="RootNode056">
               <group name="tvCabinet3004" rotation={[-Math.PI / 2, 0, 0]} scale={100}>
-                <mesh name="tvCabinet3_wood_0006" geometry={nodes.tvCabinet3_wood_0006.geometry} material={materials['Material.167']} position={[0.117, 0.144, 0.08]} rotation={[0, 0, -3.102]} scale={[0.032, 0.007, 0.027]} />
+                <mesh castShadow name="tvCabinet3_wood_0006" geometry={nodes.tvCabinet3_wood_0006.geometry} material={materials['Material.167']} position={[0.117, 0.144, 0.08]} rotation={[0, 0, -3.102]} scale={[0.032, 0.007, 0.027]} />
               </group>
             </group>
           </group>
@@ -394,7 +394,7 @@ export function Classroom(props) {
           <group name="ACfbx012" rotation={[Math.PI / 2, 0, 0]}>
             <group name="RootNode057">
               <group name="AC012">
-                <mesh name="AC_Ac_0009" geometry={nodes.AC_Ac_0009.geometry} material={materials['Material.130']} position={[-16.187, 29.56, -35.084]} scale={[0.347, 0.266, 0.401]} />
+                <mesh castShadow name="AC_Ac_0009" geometry={nodes.AC_Ac_0009.geometry} material={materials['Material.130']} position={[-16.187, 29.56, -35.084]} scale={[0.347, 0.266, 0.401]} />
               </group>
             </group>
           </group>
@@ -403,7 +403,7 @@ export function Classroom(props) {
           <group name="ACfbx013" rotation={[Math.PI / 2, 0, 0]}>
             <group name="RootNode058">
               <group name="AC013">
-                <mesh name="AC_Ac_0010" geometry={nodes.AC_Ac_0010.geometry} material={materials['Material.131']} position={[6.245, 29.56, -35.084]} scale={[0.347, 0.266, 0.401]} />
+                <mesh castShadow name="AC_Ac_0010" geometry={nodes.AC_Ac_0010.geometry} material={materials['Material.131']} position={[6.245, 29.56, -35.084]} scale={[0.347, 0.266, 0.401]} />
               </group>
             </group>
           </group>
@@ -412,7 +412,7 @@ export function Classroom(props) {
           <group name="ACfbx014" rotation={[Math.PI / 2, 0, 0]}>
             <group name="RootNode059">
               <group name="AC014">
-                <mesh name="AC_Ac_0011" geometry={nodes.AC_Ac_0011.geometry} material={materials['Material.132']} position={[25.01, 29.56, -35.084]} scale={[0.347, 0.266, 0.401]} />
+                <mesh castShadow name="AC_Ac_0011" geometry={nodes.AC_Ac_0011.geometry} material={materials['Material.132']} position={[25.01, 29.56, -35.084]} scale={[0.347, 0.266, 0.401]} />
               </group>
             </group>
           </group>
@@ -426,7 +426,7 @@ export function Classroom(props) {
           <group name="88030abe89d54968b87cc2c91d6ccd97fbx" rotation={[Math.PI / 2, 0, 0]} scale={0.025}>
             <group name="RootNode066">
               <group name="desk_low" rotation={[-Math.PI / 2, 0, 0]}>
-                <mesh name="desk_low_default_0" geometry={nodes.desk_low_default_0.geometry} material={materials['Material.143']} position={[693.485, 168.132, -174.194]} rotation={[0, 0, 1.602]} scale={[1.103, 1.856, 1.37]} />
+                <mesh castShadow name="desk_low_default_0" geometry={nodes.desk_low_default_0.geometry} material={materials['Material.143']} position={[693.485, 168.132, -174.194]} rotation={[0, 0, 1.602]} scale={[1.103, 1.856, 1.37]} />
               </group>
             </group>
           </group>
@@ -435,7 +435,7 @@ export function Classroom(props) {
           <group name="root006">
             <group name="GLTF_SceneRootNode006" rotation={[Math.PI / 2, 0, 0]}>
               <group name="#TVS0001_Generic_Wide_0">
-                <mesh name="Object_8" geometry={nodes.Object_8.geometry} material={materials.TVS0001_Standby} />
+                <mesh castShadow name="Object_8" geometry={nodes.Object_8.geometry} material={materials.TVS0001_Standby} />
               </group>
             </group>
           </group>
@@ -445,11 +445,11 @@ export function Classroom(props) {
             <group name="GLTF_SceneRootNode007" rotation={[Math.PI / 2, 0, 0]}>
               <group name="#TVS0001_Generic_Wide_0001">
                 <group name="Object_6" position={[14.356, 8.483, -18.824]} rotation={[0, -1.539, 0]} scale={[2.384, 2.611, 1.916]}>
-                  <mesh name="Object_2" geometry={nodes.Object_2.geometry} material={materials['Material.142']} />
-                  <mesh name="Object_2_1" geometry={nodes.Object_2_1.geometry} material={materials['Material.141']} />
-                  <mesh name="Object_2_2" geometry={nodes.Object_2_2.geometry} material={materials['Material.140']} />
+                  <mesh castShadow name="Object_2" geometry={nodes.Object_2.geometry} material={materials['Material.142']} />
+                  <mesh castShadow name="Object_2_1" geometry={nodes.Object_2_1.geometry} material={materials['Material.141']} />
+                  <mesh castShadow name="Object_2_2" geometry={nodes.Object_2_2.geometry} material={materials['Material.140']} />
                 </group>
-                <mesh name="Object_8001" geometry={nodes.Object_8001.geometry} material={materials['TVS0001_Standby.001']} />
+                <mesh castShadow name="Object_8001" geometry={nodes.Object_8001.geometry} material={materials['TVS0001_Standby.001']} />
               </group>
             </group>
           </group>
@@ -458,8 +458,8 @@ export function Classroom(props) {
           <group name="Root">
             <group name="Circle000" rotation={[0.05, 0, 0]} scale={1.016} />
             <group name="Circle016" rotation={[0.05, 0, 0]}>
-              <mesh name="Circle016_2" geometry={nodes.Circle016_2.geometry} material={materials.Sec_Zeiger} />
-              <mesh name="Circle016_3" geometry={nodes.Circle016_3.geometry} material={materials.min_Zeiger} />
+              <mesh castShadow name="Circle016_2" geometry={nodes.Circle016_2.geometry} material={materials.Sec_Zeiger} />
+              <mesh castShadow name="Circle016_3" geometry={nodes.Circle016_3.geometry} material={materials.min_Zeiger} />
             </group>
           </group>
         </group>
@@ -621,7 +621,7 @@ export function Classroom(props) {
         <group name="Sketchfab_model080" position={[4.667, -6.587, 19.879]} rotation={[-Math.PI / 2, 0, 0]}>
           <group name="Collada_visual_scene_group002" rotation={[Math.PI / 2, 0, 0]}>
             <group name="lamp_01002">
-              <mesh name="defaultMaterial002" geometry={nodes.defaultMaterial002.geometry} material={materials['lamp_01.002']} position={[-7.547, 12.889, -21.931]} scale={[0.193, 0.238, 0.207]} />
+              <mesh castShadow name="defaultMaterial002" geometry={nodes.defaultMaterial002.geometry} material={materials['lamp_01.002']} position={[-7.547, 12.889, -21.931]} scale={[0.193, 0.238, 0.207]} />
             </group>
           </group>
         </group>
@@ -633,14 +633,14 @@ export function Classroom(props) {
         <group name="Sketchfab_model082" position={[4.667, -6.587, 19.879]} rotation={[-Math.PI / 2, 0, 0]}>
           <group name="Collada_visual_scene_group004" rotation={[Math.PI / 2, 0, 0]}>
             <group name="lamp_01004">
-              <mesh name="defaultMaterial004" geometry={nodes.defaultMaterial004.geometry} material={materials['lamp_01.004']} position={[-2.66, 12.889, -21.931]} scale={[0.193, 0.238, 0.207]} />
+              <mesh castShadow name="defaultMaterial004" geometry={nodes.defaultMaterial004.geometry} material={materials['lamp_01.004']} position={[-2.66, 12.889, -21.931]} scale={[0.193, 0.238, 0.207]} />
             </group>
           </group>
         </group>
         <group name="Sketchfab_model083" position={[4.667, -6.587, 19.879]} rotation={[-Math.PI / 2, 0, 0]}>
           <group name="Collada_visual_scene_group005" rotation={[Math.PI / 2, 0, 0]}>
             <group name="lamp_01005">
-              <mesh name="defaultMaterial005" geometry={nodes.defaultMaterial005.geometry} material={materials['lamp_01.005']} position={[6.751, 12.889, -21.931]} scale={[0.193, 0.238, 0.207]} />
+              <mesh castShadow name="defaultMaterial005" geometry={nodes.defaultMaterial005.geometry} material={materials['lamp_01.005']} position={[6.751, 12.889, -21.931]} scale={[0.193, 0.238, 0.207]} />
             </group>
           </group>
         </group>
@@ -652,21 +652,21 @@ export function Classroom(props) {
         <group name="Sketchfab_model085" position={[4.667, -6.587, 19.879]} rotation={[-Math.PI / 2, 0, 0]}>
           <group name="Collada_visual_scene_group007" rotation={[Math.PI / 2, 0, 0]}>
             <group name="lamp_01007">
-              <mesh name="defaultMaterial007" geometry={nodes.defaultMaterial007.geometry} material={materials['lamp_01.007']} position={[12.201, 12.889, -21.931]} scale={[0.193, 0.238, 0.207]} />
+              <mesh castShadow name="defaultMaterial007" geometry={nodes.defaultMaterial007.geometry} material={materials['lamp_01.007']} position={[12.201, 12.889, -21.931]} scale={[0.193, 0.238, 0.207]} />
             </group>
           </group>
         </group>
         <group name="Sketchfab_model086" position={[4.667, -6.587, 19.879]} rotation={[-Math.PI / 2, 0, 0]}>
           <group name="Collada_visual_scene_group008" rotation={[Math.PI / 2, 0, 0]}>
             <group name="lamp_01008">
-              <mesh name="defaultMaterial008" geometry={nodes.defaultMaterial008.geometry} material={materials['lamp_01.008']} position={[6.754, 12.889, -15.908]} scale={[0.193, 0.238, 0.207]} />
+              <mesh castShadow name="defaultMaterial008" geometry={nodes.defaultMaterial008.geometry} material={materials['lamp_01.008']} position={[6.754, 12.889, -15.908]} scale={[0.193, 0.238, 0.207]} />
             </group>
           </group>
         </group>
         <group name="Sketchfab_model087" position={[4.667, -6.587, 19.879]} rotation={[-Math.PI / 2, 0, 0]}>
           <group name="Collada_visual_scene_group009" rotation={[Math.PI / 2, 0, 0]}>
             <group name="lamp_01009">
-              <mesh name="defaultMaterial009" geometry={nodes.defaultMaterial009.geometry} material={materials['lamp_01.009']} position={[12.201, 12.889, -15.908]} scale={[0.193, 0.238, 0.207]} />
+              <mesh castShadow name="defaultMaterial009" geometry={nodes.defaultMaterial009.geometry} material={materials['lamp_01.009']} position={[12.201, 12.889, -15.908]} scale={[0.193, 0.238, 0.207]} />
             </group>
           </group>
         </group>
@@ -678,7 +678,7 @@ export function Classroom(props) {
         <group name="Sketchfab_model089" position={[4.667, -6.587, 19.879]} rotation={[-Math.PI / 2, 0, 0]}>
           <group name="Collada_visual_scene_group011" rotation={[Math.PI / 2, 0, 0]}>
             <group name="lamp_01011">
-              <mesh name="defaultMaterial011" geometry={nodes.defaultMaterial011.geometry} material={materials['lamp_01.011']} position={[-7.547, 12.889, -16.021]} scale={[0.193, 0.238, 0.207]} />
+              <mesh castShadow name="defaultMaterial011" geometry={nodes.defaultMaterial011.geometry} material={materials['lamp_01.011']} position={[-7.547, 12.889, -16.021]} scale={[0.193, 0.238, 0.207]} />
             </group>
           </group>
         </group>
@@ -688,11 +688,11 @@ export function Classroom(props) {
               <group name="#WIN0003_Frame020" rotation={[-Math.PI / 2, 0, 0]}>
                 <group name="#WIN0003_Window" position={[0.441, -0.039, 0.082]}>
                   <group name="#WIN0003_Handle" position={[-0.84, -0.018, 0.55]}>
-                    <mesh name="#WIN0003_Handle_#WIN0003_Textures_0" geometry={nodes['#WIN0003_Handle_#WIN0003_Textures_0'].geometry} material={materials.WIN0003_Textures} />
+                    <mesh castShadow name="#WIN0003_Handle_#WIN0003_Textures_0" geometry={nodes['#WIN0003_Handle_#WIN0003_Textures_0'].geometry} material={materials.WIN0003_Textures} />
                   </group>
-                  <mesh name="#WIN0003_Window_#WIN0003_Textures_0" geometry={nodes['#WIN0003_Window_#WIN0003_Textures_0'].geometry} material={materials.WIN0003_Textures} />
+                  <mesh castShadow name="#WIN0003_Window_#WIN0003_Textures_0" geometry={nodes['#WIN0003_Window_#WIN0003_Textures_0'].geometry} material={materials.WIN0003_Textures} />
                 </group>
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0'].geometry} material={materials.WIN0003_Textures} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0'].geometry} material={materials.WIN0003_Textures} />
               </group>
             </group>
           </group>
@@ -701,10 +701,10 @@ export function Classroom(props) {
           <group name="#WIN0003_Residential_Plastic_White_142x62x104fbx006" rotation={[Math.PI / 2, 0, 0]}>
             <group name="RootNode008">
               <group name="#WIN0003_Frame006" rotation={[-Math.PI / 2, 0, 0]}>
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0011" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0011'].geometry} material={materials['Material.031']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0012" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0012'].geometry} material={materials['Material.040']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0013" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0013'].geometry} material={materials['Material.004']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0014" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0014'].geometry} material={materials['Material.036']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0011" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0011'].geometry} material={materials['Material.031']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0012" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0012'].geometry} material={materials['Material.040']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0013" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0013'].geometry} material={materials['Material.004']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0014" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0014'].geometry} material={materials['Material.036']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
               </group>
             </group>
           </group>
@@ -714,59 +714,59 @@ export function Classroom(props) {
             <group name="RootNode005">
               <group name="#WIN0003_Frame003" rotation={[-Math.PI / 2, 0, 0]}>
                 <group name="#WIN0003_Frame_#WIN0003_Textures_0313" position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]}>
-                  <mesh name="#WIN0003_Frame_#WIN0003_Textures_0313_1" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0313_1'].geometry} material={materials['Material.033']} />
-                  <mesh name="#WIN0003_Frame_#WIN0003_Textures_0313_2" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0313_2'].geometry} material={materials['Material.001']} />
+                  <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0313_1" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0313_1'].geometry} material={materials['Material.033']} />
+                  <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0313_2" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0313_2'].geometry} material={materials['Material.001']} />
                 </group>
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0316" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0316'].geometry} material={materials['Material.007']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0317" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0317'].geometry} material={materials['Material.007']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0318" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0318'].geometry} material={materials['Material.007']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0319" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0319'].geometry} material={materials.Glass} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0320" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0320'].geometry} material={materials.Glass} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0321" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0321'].geometry} material={materials.Glass} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0346" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0346'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0358" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0358'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0410" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0410'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0443" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0443'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0447" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0447'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0448" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0448'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0454" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0454'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0482" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0482'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0486" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0486'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0487" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0487'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0493" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0493'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0518" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0518'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0521" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0521'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0522" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0522'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0523" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0523'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0525" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0525'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0527" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0527'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0531" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0531'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0534" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0534'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0538" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0538'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0541" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0541'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0545" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0545'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0548" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0548'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0552" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0552'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0567" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0567'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0624" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0624'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0683" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0683'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0740" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0740'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0820" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0820'].geometry} material={materials.Glass} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0834" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0834'].geometry} material={materials.Glass} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0835" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0835'].geometry} material={materials.Glass} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0838" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0838'].geometry} material={materials.Glass} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0843" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0843'].geometry} material={materials.Glass} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0846" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0846'].geometry} material={materials.Glass} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0855" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0855'].geometry} material={materials['Material.007']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0856" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0856'].geometry} material={materials['Material.008']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0857" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0857'].geometry} material={materials['Material.005']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0859" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0859'].geometry} material={materials['Material.009']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0860" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0860'].geometry} material={materials['Material.041']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0861" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0861'].geometry} material={materials['Material.013']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0864" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0864'].geometry} material={materials['Material.009']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0866" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0866'].geometry} material={materials['Material.039']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0867" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0867'].geometry} material={materials['Material.005']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0868" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0868'].geometry} material={materials['Material.043']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0316" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0316'].geometry} material={materials['Material.007']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0317" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0317'].geometry} material={materials['Material.007']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0318" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0318'].geometry} material={materials['Material.007']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0319" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0319'].geometry} material={materials.Glass} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0320" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0320'].geometry} material={materials.Glass} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0321" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0321'].geometry} material={materials.Glass} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0346" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0346'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0358" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0358'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0410" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0410'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0443" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0443'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0447" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0447'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0448" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0448'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0454" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0454'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0482" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0482'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0486" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0486'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0487" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0487'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0493" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0493'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0518" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0518'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0521" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0521'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0522" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0522'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0523" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0523'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0525" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0525'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0527" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0527'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0531" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0531'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0534" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0534'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0538" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0538'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0541" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0541'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0545" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0545'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0548" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0548'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0552" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0552'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0567" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0567'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0624" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0624'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0683" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0683'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0740" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0740'].geometry} material={materials.Metal} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0820" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0820'].geometry} material={materials.Glass} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0834" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0834'].geometry} material={materials.Glass} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0835" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0835'].geometry} material={materials.Glass} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0838" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0838'].geometry} material={materials.Glass} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0843" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0843'].geometry} material={materials.Glass} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0846" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0846'].geometry} material={materials.Glass} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0855" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0855'].geometry} material={materials['Material.007']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0856" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0856'].geometry} material={materials['Material.008']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0857" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0857'].geometry} material={materials['Material.005']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0859" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0859'].geometry} material={materials['Material.009']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0860" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0860'].geometry} material={materials['Material.041']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0861" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0861'].geometry} material={materials['Material.013']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0864" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0864'].geometry} material={materials['Material.009']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0866" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0866'].geometry} material={materials['Material.039']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0867" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0867'].geometry} material={materials['Material.005']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0868" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0868'].geometry} material={materials['Material.043']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
               </group>
             </group>
           </group>
@@ -774,7 +774,7 @@ export function Classroom(props) {
         <group name="Sketchfab_model090" position={[9.536, -6.587, 19.879]} rotation={[-Math.PI / 2, 0, 0]}>
           <group name="Collada_visual_scene_group012" rotation={[Math.PI / 2, 0, 0]}>
             <group name="lamp_01012">
-              <mesh name="defaultMaterial001" geometry={nodes.defaultMaterial001.geometry} material={materials['lamp_01.001']} position={[-7.547, 12.889, -16.021]} scale={[0.193, 0.238, 0.207]} />
+              <mesh castShadow name="defaultMaterial001" geometry={nodes.defaultMaterial001.geometry} material={materials['lamp_01.001']} position={[-7.547, 12.889, -16.021]} scale={[0.193, 0.238, 0.207]} />
             </group>
           </group>
         </group>
@@ -784,11 +784,11 @@ export function Classroom(props) {
               <group name="#WIN0003_Frame021" rotation={[-Math.PI / 2, 0, 0]}>
                 <group name="#WIN0003_Window001" position={[0.441, -0.039, 0.082]}>
                   <group name="#WIN0003_Handle001" position={[-0.84, -0.018, 0.55]}>
-                    <mesh name="#WIN0003_Handle_#WIN0003_Textures_0001" geometry={nodes['#WIN0003_Handle_#WIN0003_Textures_0001'].geometry} material={materials['WIN0003_Textures.029']} />
+                    <mesh castShadow name="#WIN0003_Handle_#WIN0003_Textures_0001" geometry={nodes['#WIN0003_Handle_#WIN0003_Textures_0001'].geometry} material={materials['WIN0003_Textures.029']} />
                   </group>
-                  <mesh name="#WIN0003_Window_#WIN0003_Textures_0001" geometry={nodes['#WIN0003_Window_#WIN0003_Textures_0001'].geometry} material={materials['WIN0003_Textures.029']} />
+                  <mesh castShadow name="#WIN0003_Window_#WIN0003_Textures_0001" geometry={nodes['#WIN0003_Window_#WIN0003_Textures_0001'].geometry} material={materials['WIN0003_Textures.029']} />
                 </group>
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0001" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0001'].geometry} material={materials['WIN0003_Textures.029']} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0001" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0001'].geometry} material={materials['WIN0003_Textures.029']} />
               </group>
             </group>
           </group>
@@ -799,9 +799,9 @@ export function Classroom(props) {
               <group name="#WIN0003_Frame022" rotation={[-Math.PI / 2, 0, 0]}>
                 <group name="#WIN0003_Window002" position={[0.441, -0.039, 0.082]}>
                   <group name="#WIN0003_Handle002" position={[-0.84, -0.018, 0.55]}>
-                    <mesh name="#WIN0003_Handle_#WIN0003_Textures_0002" geometry={nodes['#WIN0003_Handle_#WIN0003_Textures_0002'].geometry} material={materials['WIN0003_Textures.030']} />
+                    <mesh castShadow name="#WIN0003_Handle_#WIN0003_Textures_0002" geometry={nodes['#WIN0003_Handle_#WIN0003_Textures_0002'].geometry} material={materials['WIN0003_Textures.030']} />
                   </group>
-                  <mesh name="#WIN0003_Window_#WIN0003_Textures_0002" geometry={nodes['#WIN0003_Window_#WIN0003_Textures_0002'].geometry} material={materials['WIN0003_Textures.030']} />
+                  <mesh castShadow name="#WIN0003_Window_#WIN0003_Textures_0002" geometry={nodes['#WIN0003_Window_#WIN0003_Textures_0002'].geometry} material={materials['WIN0003_Textures.030']} />
                 </group>
               </group>
             </group>
@@ -811,7 +811,7 @@ export function Classroom(props) {
           <group name="#WIN0003_Residential_Plastic_White_142x62x104fbx023" rotation={[Math.PI / 2, 0, 0]}>
             <group name="RootNode072">
               <group name="#WIN0003_Frame023" rotation={[-Math.PI / 2, 0, 0]}>
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0009" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0009'].geometry} material={materials['WIN0003_Textures.031']} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0009" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0009'].geometry} material={materials['WIN0003_Textures.031']} />
               </group>
             </group>
           </group>
@@ -820,7 +820,7 @@ export function Classroom(props) {
           <group name="#WIN0003_Residential_Plastic_White_142x62x104fbx024" rotation={[Math.PI / 2, 0, 0]}>
             <group name="RootNode073">
               <group name="#WIN0003_Frame024" rotation={[-Math.PI / 2, 0, 0]}>
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0043" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0043'].geometry} material={materials['WIN0003_Textures.039']} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0043" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0043'].geometry} material={materials['WIN0003_Textures.039']} />
               </group>
             </group>
           </group>
@@ -830,9 +830,9 @@ export function Classroom(props) {
             <group name="RootNode074">
               <group name="#WIN0003_Frame025" rotation={[-Math.PI / 2, 0, 0]}>
                 <group name="#WIN0003_Window003" position={[0.441, -0.039, 0.082]}>
-                  <mesh name="#WIN0003_Window_#WIN0003_Textures_0003" geometry={nodes['#WIN0003_Window_#WIN0003_Textures_0003'].geometry} material={materials['WIN0003_Textures.032']} />
+                  <mesh castShadow name="#WIN0003_Window_#WIN0003_Textures_0003" geometry={nodes['#WIN0003_Window_#WIN0003_Textures_0003'].geometry} material={materials['WIN0003_Textures.032']} />
                 </group>
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0045" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0045'].geometry} material={materials['WIN0003_Textures.032']} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0045" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0045'].geometry} material={materials['WIN0003_Textures.032']} />
               </group>
             </group>
           </group>
@@ -842,9 +842,9 @@ export function Classroom(props) {
             <group name="RootNode075">
               <group name="#WIN0003_Frame026" rotation={[-Math.PI / 2, 0, 0]}>
                 <group name="#WIN0003_Window004" position={[0.441, -0.039, 0.082]}>
-                  <mesh name="#WIN0003_Window_#WIN0003_Textures_0004" geometry={nodes['#WIN0003_Window_#WIN0003_Textures_0004'].geometry} material={materials['WIN0003_Textures.033']} />
+                  <mesh castShadow name="#WIN0003_Window_#WIN0003_Textures_0004" geometry={nodes['#WIN0003_Window_#WIN0003_Textures_0004'].geometry} material={materials['WIN0003_Textures.033']} />
                 </group>
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0046" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0046'].geometry} material={materials['WIN0003_Textures.033']} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0046" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0046'].geometry} material={materials['WIN0003_Textures.033']} />
               </group>
             </group>
           </group>
@@ -854,9 +854,9 @@ export function Classroom(props) {
             <group name="RootNode076">
               <group name="#WIN0003_Frame027" rotation={[-Math.PI / 2, 0, 0]}>
                 <group name="#WIN0003_Window005" position={[0.441, -0.039, 0.082]}>
-                  <mesh name="#WIN0003_Window_#WIN0003_Textures_0005" geometry={nodes['#WIN0003_Window_#WIN0003_Textures_0005'].geometry} material={materials['WIN0003_Textures.034']} />
+                  <mesh castShadow name="#WIN0003_Window_#WIN0003_Textures_0005" geometry={nodes['#WIN0003_Window_#WIN0003_Textures_0005'].geometry} material={materials['WIN0003_Textures.034']} />
                 </group>
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0047" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0047'].geometry} material={materials['WIN0003_Textures.034']} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0047" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0047'].geometry} material={materials['WIN0003_Textures.034']} />
               </group>
             </group>
           </group>
@@ -865,9 +865,9 @@ export function Classroom(props) {
           <group name="#WIN0003_Residential_Plastic_White_142x62x104fbx028" rotation={[Math.PI / 2, 0, 0]}>
             <group name="RootNode077">
               <group name="#WIN0003_Frame028" rotation={[-Math.PI / 2, 0, 0]}>
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0035" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0035'].geometry} material={materials['Material.021']} position={[-9.411, -5.192, 0.654]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0040" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0040'].geometry} material={materials['Material.113']} position={[-9.411, -5.192, 0.65]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0041" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0041'].geometry} material={materials['Material.021']} position={[-9.411, -5.192, 0.645]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0035" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0035'].geometry} material={materials['Material.021']} position={[-9.411, -5.192, 0.654]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0040" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0040'].geometry} material={materials['Material.113']} position={[-9.411, -5.192, 0.65]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0041" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0041'].geometry} material={materials['Material.021']} position={[-9.411, -5.192, 0.645]} scale={[1, 1, 0.704]} />
               </group>
             </group>
           </group>
@@ -876,23 +876,23 @@ export function Classroom(props) {
           <group name="#WIN0003_Residential_Plastic_White_142x62x104fbx029" rotation={[Math.PI / 2, 0, 0]}>
             <group name="RootNode078">
               <group name="#WIN0003_Frame029" rotation={[-Math.PI / 2, 0, 0]}>
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0010" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0010'].geometry} material={materials['Material.107']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0015" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0015'].geometry} material={materials['Material.108']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0016" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0016'].geometry} material={materials['Material.021']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0017" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0017'].geometry} material={materials['Material.109']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0019" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0019'].geometry} material={materials['Material.110']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0021" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0021'].geometry} material={materials['Material.019']} position={[-9.422, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0022" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0022'].geometry} material={materials['Material.020']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0023" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0023'].geometry} material={materials['Material.108']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0024" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0024'].geometry} material={materials['Material.112']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0025" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0025'].geometry} material={materials['Material.111']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0026" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0026'].geometry} material={materials['Glass.042']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0027" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0027'].geometry} material={materials['Glass.042']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0028" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0028'].geometry} material={materials['Glass.042']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0029" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0029'].geometry} material={materials['Material.111']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0030" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0030'].geometry} material={materials['Material.111']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0031" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0031'].geometry} material={materials['Material.111']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0034" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0034'].geometry} material={materials['Material.030']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0010" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0010'].geometry} material={materials['Material.107']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0015" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0015'].geometry} material={materials['Material.108']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0016" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0016'].geometry} material={materials['Material.021']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0017" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0017'].geometry} material={materials['Material.109']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0019" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0019'].geometry} material={materials['Material.110']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0021" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0021'].geometry} material={materials['Material.019']} position={[-9.422, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0022" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0022'].geometry} material={materials['Material.020']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0023" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0023'].geometry} material={materials['Material.108']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0024" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0024'].geometry} material={materials['Material.112']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0025" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0025'].geometry} material={materials['Material.111']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0026" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0026'].geometry} material={materials['Glass.042']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0027" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0027'].geometry} material={materials['Glass.042']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0028" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0028'].geometry} material={materials['Glass.042']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0029" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0029'].geometry} material={materials['Material.111']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0030" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0030'].geometry} material={materials['Material.111']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0031" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0031'].geometry} material={materials['Material.111']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0034" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0034'].geometry} material={materials['Material.030']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
               </group>
             </group>
           </group>
@@ -901,7 +901,7 @@ export function Classroom(props) {
           <group name="44c15676bd92436aa0e032a2683df647fbx005" rotation={[Math.PI / 2, 0, 0]}>
             <group name="RootNode079">
               <group name="tvCabinet3001" rotation={[-Math.PI / 2, 0, 0]} scale={100}>
-                <mesh name="tvCabinet3_wood_0004" geometry={nodes.tvCabinet3_wood_0004.geometry} material={materials['Material.166']} position={[0.191, 0.144, 0.08]} rotation={[0, 0, -3.102]} scale={[0.032, 0.011, 0.027]} />
+                <mesh castShadow name="tvCabinet3_wood_0004" geometry={nodes.tvCabinet3_wood_0004.geometry} material={materials['Material.166']} position={[0.191, 0.144, 0.08]} rotation={[0, 0, -3.102]} scale={[0.032, 0.011, 0.027]} />
               </group>
             </group>
           </group>
@@ -910,15 +910,15 @@ export function Classroom(props) {
           <group name="#WIN0003_Residential_Plastic_White_142x62x104fbx030" rotation={[Math.PI / 2, 0, 0]}>
             <group name="RootNode080">
               <group name="#WIN0003_Frame030" rotation={[-Math.PI / 2, 0, 0]}>
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0048" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0048'].geometry} material={materials['Glass.047']} position={[-9.411, -5.392, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0049" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0049'].geometry} material={materials['Glass.047']} position={[-9.411, -5.392, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0050" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0050'].geometry} material={materials['Metal.008']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0052" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0052'].geometry} material={materials['Metal.008']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0053" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0053'].geometry} material={materials['Metal.008']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0054" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0054'].geometry} material={materials['Metal.008']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0059" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0059'].geometry} material={materials['Metal.008']} position={[-9.411, -5.432, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0060" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0060'].geometry} material={materials['Metal.008']} position={[-9.411, -5.432, 0.685]} scale={[1, 1, 0.704]} />
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0062" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0062'].geometry} material={materials['Metal.008']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0048" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0048'].geometry} material={materials['Glass.047']} position={[-9.411, -5.392, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0049" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0049'].geometry} material={materials['Glass.047']} position={[-9.411, -5.392, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0050" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0050'].geometry} material={materials['Metal.008']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0052" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0052'].geometry} material={materials['Metal.008']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0053" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0053'].geometry} material={materials['Metal.008']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0054" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0054'].geometry} material={materials['Metal.008']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0059" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0059'].geometry} material={materials['Metal.008']} position={[-9.411, -5.432, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0060" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0060'].geometry} material={materials['Metal.008']} position={[-9.411, -5.432, 0.685]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0062" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0062'].geometry} material={materials['Metal.008']} position={[-9.411, -5.192, 0.685]} scale={[1, 1, 0.704]} />
               </group>
             </group>
           </group>
@@ -935,7 +935,7 @@ export function Classroom(props) {
               <group name="Cylinder08" position={[-12.851, 27.386, -126.404]} rotation={[-Math.PI / 2, 0, 0]} />
               <group name="Cylinder09" position={[-12.9, 28.287, -131.49]} rotation={[-Math.PI / 2, 0, 0]} />
               <group name="Cylinder10" position={[-18.788, 28.046, -131.476]} rotation={[-Math.PI / 2, 0, 0]}>
-                <mesh name="Cylinder10_BlackMetal_0" geometry={nodes.Cylinder10_BlackMetal_0.geometry} material={materials['Material.144']} position={[37.529, -129.432, -26.902]} rotation={[0, 0, 3.099]} scale={[0.014, 0.014, 0.013]} />
+                <mesh castShadow name="Cylinder10_BlackMetal_0" geometry={nodes.Cylinder10_BlackMetal_0.geometry} material={materials['Material.144']} position={[37.529, -129.432, -26.902]} rotation={[0, 0, 3.099]} scale={[0.014, 0.014, 0.013]} />
               </group>
               <group name="Cylinder11" position={[-18.777, 27.845, -84.724]} rotation={[-Math.PI / 2, 0, 0]} />
               <group name="Cylinder12" position={[-18.728, 26.944, -89.81]} rotation={[-Math.PI / 2, 0, 0]} />
@@ -997,7 +997,7 @@ export function Classroom(props) {
           <group name="3591266375494020b52a9bf77f651d47fbx" rotation={[Math.PI / 2, 0, 0]}>
             <group name="RootNode082">
               <group name="WallClock3" rotation={[-Math.PI / 2, 0, 0]} scale={0.025}>
-                <mesh name="WallClock3_WallClock3_0" geometry={nodes.WallClock3_WallClock3_0.geometry} material={materials.WallClock3} position={[359.382, 0, 0]} />
+                <mesh castShadow name="WallClock3_WallClock3_0" geometry={nodes.WallClock3_WallClock3_0.geometry} material={materials.WallClock3} position={[359.382, 0, 0]} />
               </group>
             </group>
           </group>
@@ -1006,7 +1006,7 @@ export function Classroom(props) {
           <group name="3591266375494020b52a9bf77f651d47fbx001" rotation={[Math.PI / 2, 0, 0]}>
             <group name="RootNode083">
               <group name="WallClock3001" rotation={[-Math.PI / 2, 0, 0]} scale={0.025}>
-                <mesh name="WallClock3_WallClock3_0001" geometry={nodes.WallClock3_WallClock3_0001.geometry} material={materials['WallClock3.001']} />
+                <mesh castShadow name="WallClock3_WallClock3_0001" geometry={nodes.WallClock3_WallClock3_0001.geometry} material={materials['WallClock3.001']} />
               </group>
             </group>
           </group>
@@ -1015,139 +1015,139 @@ export function Classroom(props) {
           <group name="#WIN0003_Residential_Plastic_White_142x62x104fbx031" rotation={[Math.PI / 2, 0, 0]}>
             <group name="RootNode084">
               <group name="#WIN0003_Frame031" rotation={[-Math.PI / 2, 0, 0]}>
-                <mesh name="#WIN0003_Frame_#WIN0003_Textures_0002" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0002'].geometry} material={materials['Material.023']} position={[-10.716, -5.192, 0.65]} scale={[1, 1, 0.704]} />
+                <mesh castShadow name="#WIN0003_Frame_#WIN0003_Textures_0002" geometry={nodes['#WIN0003_Frame_#WIN0003_Textures_0002'].geometry} material={materials['Material.023']} position={[-10.716, -5.192, 0.65]} scale={[1, 1, 0.704]} />
               </group>
             </group>
           </group>
         </group>
-        <mesh name="Roller_bottom" geometry={nodes.Roller_bottom.geometry} material={materials['Material.014']} position={[12.4, -2.892, 7.473]} />
-        <mesh name="Cube013" geometry={nodes.Cube013.geometry} material={materials['Material.046']} position={[-2.942, 6.415, 4.003]} scale={[0.4, 0.05, 0.6]} />
-        <mesh name="Cube023" geometry={nodes.Cube023.geometry} material={nodes.Cube023.material} position={[1.998, 6.405, -2.147]} scale={[0.4, 0.05, 0.6]} />
-        <mesh name="Cube030" geometry={nodes.Cube030.geometry} material={nodes.Cube030.material} position={[-2.942, 6.425, -2.147]} scale={[0.4, 0.05, 0.6]} />
-        <mesh name="Roller_bottom001" geometry={nodes.Roller_bottom001.geometry} material={materials['Material.015']} position={[12.4, -2.892, 7.473]} />
-        <mesh name="Cube038" geometry={nodes.Cube038.geometry} material={materials['Material.002']} position={[-7.698, 3.611, -3.75]} rotation={[0, 1.571, 0]} scale={[0.3, 3, 0.25]} />
-        <mesh name="Cube031" geometry={nodes.Cube031.geometry} material={materials['Material.128']} position={[12.917, 5.955, -3.814]} rotation={[0, 0, -Math.PI / 2]} scale={[0.45, 6.66, 0.1]} />
-        <mesh name="Plane003" geometry={nodes.Plane003.geometry} material={nodes.Plane003.material} position={[-2.902, 5.416, 5.82]} rotation={[Math.PI / 2, 0, 0]} scale={[0.75, 1, 0.95]} />
-        <mesh name="Cube049" geometry={nodes.Cube049.geometry} material={materials['Material.029']} position={[19.479, 2.385, -1.824]} rotation={[Math.PI / 2, Math.PI / 2, 0]} scale={[-0.05, -1.66, -0.05]} />
-        <mesh name="Roller_bottom002" geometry={nodes.Roller_bottom002.geometry} material={materials['Material.017']} position={[12.4, -2.892, 7.473]} />
-        <mesh name="Cube037" geometry={nodes.Cube037.geometry} material={materials['Glass.017']} position={[-7.659, 3.975, -1.671]} rotation={[-Math.PI / 2, Math.PI / 2, 0]} scale={[1.65, 1.8, 0.05]} />
-        <mesh name="Cube039" geometry={nodes.Cube039.geometry} material={materials['Glass.018']} position={[-7.659, 3.975, 3.527]} rotation={[-Math.PI / 2, Math.PI / 2, 0]} scale={[1.65, 1.8, 0.05]} />
-        <mesh name="Cube053" geometry={nodes.Cube053.geometry} material={materials['Material.016']} position={[5.937, 3.649, 5.93]} scale={[14.025, 3, 0.076]} />
-        <mesh name="Cube063" geometry={nodes.Cube063.geometry} material={materials['Material.164']} position={[-5.374, 6.974, 0.898]} scale={[0.2, 0.5, 4.975]} />
-        <mesh name="Cube066" geometry={nodes.Cube066.geometry} material={nodes.Cube066.material} position={[-2.942, 6.415, 4.003]} scale={[0.4, 0.05, 0.6]} />
-        <mesh name="Cube067" geometry={nodes.Cube067.geometry} material={nodes.Cube067.material} position={[1.998, 6.405, -2.147]} scale={[0.4, 0.05, 0.6]} />
-        <mesh name="Cube068" geometry={nodes.Cube068.geometry} material={materials['Material.048']} position={[-2.942, 6.425, -2.147]} scale={[0.4, 0.05, 0.6]} />
-        <mesh name="Roller_bottom003" geometry={nodes.Roller_bottom003.geometry} material={materials['Material.018']} position={[12.4, -2.892, 7.473]} />
-        <mesh name="Cube075" geometry={nodes.Cube075.geometry} material={nodes.Cube075.material} position={[12.917, 5.955, -3.814]} rotation={[0, 0, -Math.PI / 2]} scale={[0.45, 6.66, 0.1]} />
-        <mesh name="Plane006" geometry={nodes.Plane006.geometry} material={nodes.Plane006.material} position={[-2.902, 5.416, 5.82]} rotation={[Math.PI / 2, 0, 0]} scale={[0.75, 1, 0.95]} />
-        <mesh name="tvCabinet3_wood_0003" geometry={nodes.tvCabinet3_wood_0003.geometry} material={materials['wood.003']} position={[4.784, -2.797, 22.731]} rotation={[0, 0, -3.102]} scale={[0.028, 0.018, 0.022]} />
-        <mesh name="Roller_bottom004" geometry={nodes.Roller_bottom004.geometry} material={materials['Material.022']} position={[12.4, -2.892, 7.473]} />
-        <mesh name="Cube089" geometry={nodes.Cube089.geometry} material={materials['Material.076']} position={[-7.688, 3.551, 5.56]} rotation={[0, 1.571, 0]} scale={[0.3, 3, 0.25]} />
-        <mesh name="Cube090" geometry={nodes.Cube090.geometry} material={materials['Glass.029']} position={[-7.659, 3.975, -1.671]} rotation={[-Math.PI / 2, Math.PI / 2, 0]} scale={[1.65, 1.8, 0.05]} />
-        <mesh name="Cube091" geometry={nodes.Cube091.geometry} material={materials['Glass.030']} position={[-7.659, 3.975, 3.527]} rotation={[-Math.PI / 2, Math.PI / 2, 0]} scale={[1.65, 1.8, 0.05]} />
-        <mesh name="Cube092" geometry={nodes.Cube092.geometry} material={materials['Material.165']} position={[-7.604, 6.934, 0.898]} scale={[0.2, 0.5, 4.975]} />
-        <mesh name="Cube093" geometry={nodes.Cube093.geometry} material={materials['Material.155']} position={[17.086, 6.974, 0.898]} scale={[0.2, 0.5, 4.975]} />
-        <mesh name="Cube094" geometry={nodes.Cube094.geometry} material={materials['Material.157']} position={[12.216, 6.974, 0.898]} scale={[0.2, 0.5, 4.975]} />
-        <mesh name="Cube095" geometry={nodes.Cube095.geometry} material={materials['Material.159']} position={[7.566, 6.974, 0.898]} scale={[0.2, 0.5, 4.975]} />
-        <mesh name="Cube096" geometry={nodes.Cube096.geometry} material={materials['Material.006']} position={[-8.023, 3.636, 0.975]} rotation={[0, 1.571, 0]} scale={[5.025, 3, 0.076]} />
-        <mesh name="Cube097" geometry={nodes.Cube097.geometry} material={nodes.Cube097.material} position={[5.937, 3.649, 5.93]} scale={[14.025, 3, 0.076]} />
-        <mesh name="Cube098" geometry={nodes.Cube098.geometry} material={materials['Material.011']} position={[5.937, 3.629, -3.95]} scale={[14.025, 3, 0.076]} />
-        <mesh name="Cube099" geometry={nodes.Cube099.geometry} material={materials['Material.012']} position={[19.937, 3.646, 0.975]} rotation={[0, 1.571, 0]} scale={[5.025, 3, 0.076]} />
-        <mesh name="Cube100" geometry={nodes.Cube100.geometry} material={materials['Material.158']} position={[9.876, 6.974, 0.898]} scale={[0.2, 0.5, 4.975]} />
-        <mesh name="Cube101" geometry={nodes.Cube101.geometry} material={materials['Material.156']} position={[14.586, 6.974, 0.898]} scale={[0.2, 0.5, 4.975]} />
-        <mesh name="Cube103" geometry={nodes.Cube103.geometry} material={materials['Material.154']} position={[19.686, 6.974, 0.898]} scale={[0.2, 0.5, 4.975]} />
-        <mesh name="Cube104" geometry={nodes.Cube104.geometry} material={materials['Material.161']} position={[1.966, 6.974, 0.898]} scale={[0.2, 0.5, 4.975]} />
-        <mesh name="Cube105" geometry={nodes.Cube105.geometry} material={materials['Material.162']} position={[-0.504, 6.974, 0.898]} scale={[0.2, 0.5, 4.975]} />
-        <mesh name="Cube106" geometry={nodes.Cube106.geometry} material={materials['Material.164']} position={[-2.974, 6.974, 0.898]} scale={[0.2, 0.5, 4.975]} />
-        <mesh name="Plane007" geometry={nodes.Plane007.geometry} material={materials['Material.151']} position={[5.819, 7.467, 2.403]} scale={[14.65, 1, 7.7]} />
-        <mesh name="Cube108" geometry={nodes.Cube108.geometry} material={materials['Material.050']} position={[12.924, 6.413, -3.395]} scale={[6.561, 0.05, 0.65]} />
-        <mesh name="Cube109" geometry={nodes.Cube109.geometry} material={materials['Material.044']} position={[1.998, 6.375, 3.993]} scale={[0.4, 0.05, 0.6]} />
-        <mesh name="Cube110" geometry={nodes.Cube110.geometry} material={nodes.Cube110.material} position={[-2.942, 6.415, 4.003]} scale={[0.4, 0.05, 0.6]} />
-        <mesh name="Cube111" geometry={nodes.Cube111.geometry} material={nodes.Cube111.material} position={[1.998, 6.405, -2.147]} scale={[0.4, 0.05, 0.6]} />
-        <mesh name="Cube112" geometry={nodes.Cube112.geometry} material={nodes.Cube112.material} position={[-2.942, 6.425, -2.147]} scale={[0.4, 0.05, 0.6]} />
-        <mesh name="Roller_bottom005" geometry={nodes.Roller_bottom005.geometry} material={materials['Material.024']} position={[12.4, -2.892, 7.473]} />
-        <mesh name="Cube113" geometry={nodes.Cube113.geometry} material={materials['Material.035']} position={[-1.075, 6.413, -3.404]} scale={[6.6, 0.05, 0.65]} />
-        <mesh name="Cube114" geometry={nodes.Cube114.geometry} material={materials['Material.136']} position={[-1.565, 6.413, 5.226]} scale={[5.9, 0.05, 0.65]} />
-        <mesh name="Cube115" geometry={nodes.Cube115.geometry} material={materials['Material.029']} position={[-1.634, 6.444, 0.978]} scale={[5.9, 0.05, 1.2]} />
-        <mesh name="Plane008" geometry={nodes.Plane008.geometry} material={materials['Material.145']} position={[5.819, 0.637, 2.403]} scale={[14.65, 1, 7.7]} />
-        <mesh name="Cube116" geometry={nodes.Cube116.geometry} material={materials['Material.160']} position={[4.506, 6.974, 0.898]} scale={[0.2, 0.5, 4.975]} />
-        <mesh name="Cube117" geometry={nodes.Cube117.geometry} material={materials['Material.076']} position={[-7.698, 3.611, -3.75]} rotation={[0, 1.571, 0]} scale={[0.3, 3, 0.25]} />
-        <mesh name="Cube118" geometry={nodes.Cube118.geometry} material={materials['Material.114']} position={[5.952, 4.091, -3.47]} rotation={[0, 1.571, 0]} scale={[0.45, 3.4, 0.45]} />
-        <mesh name="Cube119" geometry={nodes.Cube119.geometry} material={nodes.Cube119.material} position={[12.917, 5.955, -3.814]} rotation={[0, 0, -Math.PI / 2]} scale={[0.45, 6.66, 0.1]} />
-        <mesh name="Cube120" geometry={nodes.Cube120.geometry} material={materials['Material.127']} position={[-7.643, 5.955, -2.114]} rotation={[-Math.PI / 2, Math.PI / 2, 0]} scale={[0.45, 1.91, 0.05]} />
-        <mesh name="Plane009" geometry={nodes.Plane009.geometry} material={nodes.Plane009.material} position={[-2.902, 5.416, 5.82]} rotation={[Math.PI / 2, 0, 0]} scale={[0.75, 1, 0.95]} />
-        <mesh name="Cube121" geometry={nodes.Cube121.geometry} material={materials['Material.078']} position={[12.857, 2.385, -3.794]} rotation={[0, 0, -Math.PI / 2]} scale={[0.05, 6.51, 0.05]} />
-        <mesh name="Cube122" geometry={nodes.Cube122.geometry} material={materials['Material.148']} position={[-7.633, 5.955, 4.096]} rotation={[-Math.PI / 2, Math.PI / 2, 0]} scale={[0.45, 1.91, 0.05]} />
-        <mesh name="Cube123" geometry={nodes.Cube123.geometry} material={materials['Material.089']} position={[-7.533, 2.405, 3.746]} rotation={[-Math.PI / 2, Math.PI / 2, 0]} scale={[0.05, 1.56, 0.05]} />
-        <mesh name="Cube124" geometry={nodes.Cube124.geometry} material={materials['Material.090']} position={[-7.533, 2.385, -1.874]} rotation={[-Math.PI / 2, Math.PI / 2, 0]} scale={[0.05, 1.66, 0.05]} />
-        <mesh name="Cube125" geometry={nodes.Cube125.geometry} material={materials['Material.091']} position={[-1.093, 2.385, -3.794]} rotation={[0, 0, -Math.PI / 2]} scale={[0.05, 6.51, 0.05]} />
-        <mesh name="Cube126" geometry={nodes.Cube126.geometry} material={materials['Material.150']} position={[19.439, 5.955, 4.096]} rotation={[Math.PI / 2, Math.PI / 2, 0]} scale={[-0.45, -1.91, -0.05]} />
+        <mesh castShadow name="Roller_bottom" geometry={nodes.Roller_bottom.geometry} material={materials['Material.014']} position={[12.4, -2.892, 7.473]} />
+        <mesh castShadow name="Cube013" geometry={nodes.Cube013.geometry} material={materials['Material.046']} position={[-2.942, 6.415, 4.003]} scale={[0.4, 0.05, 0.6]} />
+        <mesh castShadow name="Cube023" geometry={nodes.Cube023.geometry} material={nodes.Cube023.material} position={[1.998, 6.405, -2.147]} scale={[0.4, 0.05, 0.6]} />
+        <mesh castShadow name="Cube030" geometry={nodes.Cube030.geometry} material={nodes.Cube030.material} position={[-2.942, 6.425, -2.147]} scale={[0.4, 0.05, 0.6]} />
+        <mesh castShadow name="Roller_bottom001" geometry={nodes.Roller_bottom001.geometry} material={materials['Material.015']} position={[12.4, -2.892, 7.473]} />
+        <mesh castShadow name="Cube038" geometry={nodes.Cube038.geometry} material={materials['Material.002']} position={[-7.698, 3.611, -3.75]} rotation={[0, 1.571, 0]} scale={[0.3, 3, 0.25]} />
+        <mesh castShadow name="Cube031" geometry={nodes.Cube031.geometry} material={materials['Material.128']} position={[12.917, 5.955, -3.814]} rotation={[0, 0, -Math.PI / 2]} scale={[0.45, 6.66, 0.1]} />
+        <mesh castShadow name="Plane003" geometry={nodes.Plane003.geometry} material={nodes.Plane003.material} position={[-2.902, 5.416, 5.82]} rotation={[Math.PI / 2, 0, 0]} scale={[0.75, 1, 0.95]} />
+        <mesh castShadow name="Cube049" geometry={nodes.Cube049.geometry} material={materials['Material.029']} position={[19.479, 2.385, -1.824]} rotation={[Math.PI / 2, Math.PI / 2, 0]} scale={[-0.05, -1.66, -0.05]} />
+        <mesh castShadow name="Roller_bottom002" geometry={nodes.Roller_bottom002.geometry} material={materials['Material.017']} position={[12.4, -2.892, 7.473]} />
+        <mesh castShadow name="Cube037" geometry={nodes.Cube037.geometry} material={materials['Glass.017']} position={[-7.659, 3.975, -1.671]} rotation={[-Math.PI / 2, Math.PI / 2, 0]} scale={[1.65, 1.8, 0.05]} />
+        <mesh castShadow name="Cube039" geometry={nodes.Cube039.geometry} material={materials['Glass.018']} position={[-7.659, 3.975, 3.527]} rotation={[-Math.PI / 2, Math.PI / 2, 0]} scale={[1.65, 1.8, 0.05]} />
+        <mesh castShadow name="Cube053" geometry={nodes.Cube053.geometry} material={materials['Material.016']} position={[5.937, 3.649, 5.93]} scale={[14.025, 3, 0.076]} />
+        <mesh castShadow name="Cube063" geometry={nodes.Cube063.geometry} material={materials['Material.164']} position={[-5.374, 6.974, 0.898]} scale={[0.2, 0.5, 4.975]} />
+        <mesh castShadow name="Cube066" geometry={nodes.Cube066.geometry} material={nodes.Cube066.material} position={[-2.942, 6.415, 4.003]} scale={[0.4, 0.05, 0.6]} />
+        <mesh castShadow name="Cube067" geometry={nodes.Cube067.geometry} material={nodes.Cube067.material} position={[1.998, 6.405, -2.147]} scale={[0.4, 0.05, 0.6]} />
+        <mesh castShadow name="Cube068" geometry={nodes.Cube068.geometry} material={materials['Material.048']} position={[-2.942, 6.425, -2.147]} scale={[0.4, 0.05, 0.6]} />
+        <mesh castShadow name="Roller_bottom003" geometry={nodes.Roller_bottom003.geometry} material={materials['Material.018']} position={[12.4, -2.892, 7.473]} />
+        <mesh castShadow name="Cube075" geometry={nodes.Cube075.geometry} material={nodes.Cube075.material} position={[12.917, 5.955, -3.814]} rotation={[0, 0, -Math.PI / 2]} scale={[0.45, 6.66, 0.1]} />
+        <mesh castShadow name="Plane006" geometry={nodes.Plane006.geometry} material={nodes.Plane006.material} position={[-2.902, 5.416, 5.82]} rotation={[Math.PI / 2, 0, 0]} scale={[0.75, 1, 0.95]} />
+        <mesh castShadow name="tvCabinet3_wood_0003" geometry={nodes.tvCabinet3_wood_0003.geometry} material={materials['wood.003']} position={[4.784, -2.797, 22.731]} rotation={[0, 0, -3.102]} scale={[0.028, 0.018, 0.022]} />
+        <mesh castShadow name="Roller_bottom004" geometry={nodes.Roller_bottom004.geometry} material={materials['Material.022']} position={[12.4, -2.892, 7.473]} />
+        <mesh castShadow name="Cube089" geometry={nodes.Cube089.geometry} material={materials['Material.076']} position={[-7.688, 3.551, 5.56]} rotation={[0, 1.571, 0]} scale={[0.3, 3, 0.25]} />
+        <mesh castShadow name="Cube090" geometry={nodes.Cube090.geometry} material={materials['Glass.029']} position={[-7.659, 3.975, -1.671]} rotation={[-Math.PI / 2, Math.PI / 2, 0]} scale={[1.65, 1.8, 0.05]} />
+        <mesh castShadow name="Cube091" geometry={nodes.Cube091.geometry} material={materials['Glass.030']} position={[-7.659, 3.975, 3.527]} rotation={[-Math.PI / 2, Math.PI / 2, 0]} scale={[1.65, 1.8, 0.05]} />
+        <mesh castShadow name="Cube092" geometry={nodes.Cube092.geometry} material={materials['Material.165']} position={[-7.604, 6.934, 0.898]} scale={[0.2, 0.5, 4.975]} />
+        <mesh castShadow name="Cube093" geometry={nodes.Cube093.geometry} material={materials['Material.155']} position={[17.086, 6.974, 0.898]} scale={[0.2, 0.5, 4.975]} />
+        <mesh castShadow name="Cube094" geometry={nodes.Cube094.geometry} material={materials['Material.157']} position={[12.216, 6.974, 0.898]} scale={[0.2, 0.5, 4.975]} />
+        <mesh castShadow name="Cube095" geometry={nodes.Cube095.geometry} material={materials['Material.159']} position={[7.566, 6.974, 0.898]} scale={[0.2, 0.5, 4.975]} />
+        <mesh castShadow name="Cube096" geometry={nodes.Cube096.geometry} material={materials['Material.006']} position={[-8.023, 3.636, 0.975]} rotation={[0, 1.571, 0]} scale={[5.025, 3, 0.076]} />
+        <mesh castShadow name="Cube097" geometry={nodes.Cube097.geometry} material={nodes.Cube097.material} position={[5.937, 3.649, 5.93]} scale={[14.025, 3, 0.076]} />
+        <mesh castShadow name="Cube098" geometry={nodes.Cube098.geometry} material={materials['Material.011']} position={[5.937, 3.629, -3.95]} scale={[14.025, 3, 0.076]} />
+        <mesh castShadow name="Cube099" geometry={nodes.Cube099.geometry} material={materials['Material.012']} position={[19.937, 3.646, 0.975]} rotation={[0, 1.571, 0]} scale={[5.025, 3, 0.076]} />
+        <mesh castShadow name="Cube100" geometry={nodes.Cube100.geometry} material={materials['Material.158']} position={[9.876, 6.974, 0.898]} scale={[0.2, 0.5, 4.975]} />
+        <mesh castShadow name="Cube101" geometry={nodes.Cube101.geometry} material={materials['Material.156']} position={[14.586, 6.974, 0.898]} scale={[0.2, 0.5, 4.975]} />
+        <mesh castShadow name="Cube103" geometry={nodes.Cube103.geometry} material={materials['Material.154']} position={[19.686, 6.974, 0.898]} scale={[0.2, 0.5, 4.975]} />
+        <mesh castShadow name="Cube104" geometry={nodes.Cube104.geometry} material={materials['Material.161']} position={[1.966, 6.974, 0.898]} scale={[0.2, 0.5, 4.975]} />
+        <mesh castShadow name="Cube105" geometry={nodes.Cube105.geometry} material={materials['Material.162']} position={[-0.504, 6.974, 0.898]} scale={[0.2, 0.5, 4.975]} />
+        <mesh castShadow name="Cube106" geometry={nodes.Cube106.geometry} material={materials['Material.164']} position={[-2.974, 6.974, 0.898]} scale={[0.2, 0.5, 4.975]} />
+        <mesh castShadow name="Plane007" geometry={nodes.Plane007.geometry} material={materials['Material.151']} position={[5.819, 7.467, 2.403]} scale={[14.65, 1, 7.7]} />
+        <mesh castShadow name="Cube108" geometry={nodes.Cube108.geometry} material={materials['Material.050']} position={[12.924, 6.413, -3.395]} scale={[6.561, 0.05, 0.65]} />
+        <mesh castShadow name="Cube109" geometry={nodes.Cube109.geometry} material={materials['Material.044']} position={[1.998, 6.375, 3.993]} scale={[0.4, 0.05, 0.6]} />
+        <mesh castShadow name="Cube110" geometry={nodes.Cube110.geometry} material={nodes.Cube110.material} position={[-2.942, 6.415, 4.003]} scale={[0.4, 0.05, 0.6]} />
+        <mesh castShadow name="Cube111" geometry={nodes.Cube111.geometry} material={nodes.Cube111.material} position={[1.998, 6.405, -2.147]} scale={[0.4, 0.05, 0.6]} />
+        <mesh castShadow name="Cube112" geometry={nodes.Cube112.geometry} material={nodes.Cube112.material} position={[-2.942, 6.425, -2.147]} scale={[0.4, 0.05, 0.6]} />
+        <mesh castShadow name="Roller_bottom005" geometry={nodes.Roller_bottom005.geometry} material={materials['Material.024']} position={[12.4, -2.892, 7.473]} />
+        <mesh castShadow name="Cube113" geometry={nodes.Cube113.geometry} material={materials['Material.035']} position={[-1.075, 6.413, -3.404]} scale={[6.6, 0.05, 0.65]} />
+        <mesh castShadow name="Cube114" geometry={nodes.Cube114.geometry} material={materials['Material.136']} position={[-1.565, 6.413, 5.226]} scale={[5.9, 0.05, 0.65]} />
+        <mesh castShadow name="Cube115" geometry={nodes.Cube115.geometry} material={materials['Material.029']} position={[-1.634, 6.444, 0.978]} scale={[5.9, 0.05, 1.2]} />
+        <mesh castShadow name="Plane008" geometry={nodes.Plane008.geometry} material={materials['Material.145']} position={[5.819, 0.637, 2.403]} scale={[14.65, 1, 7.7]} />
+        <mesh castShadow name="Cube116" geometry={nodes.Cube116.geometry} material={materials['Material.160']} position={[4.506, 6.974, 0.898]} scale={[0.2, 0.5, 4.975]} />
+        <mesh castShadow name="Cube117" geometry={nodes.Cube117.geometry} material={materials['Material.076']} position={[-7.698, 3.611, -3.75]} rotation={[0, 1.571, 0]} scale={[0.3, 3, 0.25]} />
+        <mesh castShadow name="Cube118" geometry={nodes.Cube118.geometry} material={materials['Material.114']} position={[5.952, 4.091, -3.47]} rotation={[0, 1.571, 0]} scale={[0.45, 3.4, 0.45]} />
+        <mesh castShadow name="Cube119" geometry={nodes.Cube119.geometry} material={nodes.Cube119.material} position={[12.917, 5.955, -3.814]} rotation={[0, 0, -Math.PI / 2]} scale={[0.45, 6.66, 0.1]} />
+        <mesh castShadow name="Cube120" geometry={nodes.Cube120.geometry} material={materials['Material.127']} position={[-7.643, 5.955, -2.114]} rotation={[-Math.PI / 2, Math.PI / 2, 0]} scale={[0.45, 1.91, 0.05]} />
+        <mesh castShadow name="Plane009" geometry={nodes.Plane009.geometry} material={nodes.Plane009.material} position={[-2.902, 5.416, 5.82]} rotation={[Math.PI / 2, 0, 0]} scale={[0.75, 1, 0.95]} />
+        <mesh castShadow name="Cube121" geometry={nodes.Cube121.geometry} material={materials['Material.078']} position={[12.857, 2.385, -3.794]} rotation={[0, 0, -Math.PI / 2]} scale={[0.05, 6.51, 0.05]} />
+        <mesh castShadow name="Cube122" geometry={nodes.Cube122.geometry} material={materials['Material.148']} position={[-7.633, 5.955, 4.096]} rotation={[-Math.PI / 2, Math.PI / 2, 0]} scale={[0.45, 1.91, 0.05]} />
+        <mesh castShadow name="Cube123" geometry={nodes.Cube123.geometry} material={materials['Material.089']} position={[-7.533, 2.405, 3.746]} rotation={[-Math.PI / 2, Math.PI / 2, 0]} scale={[0.05, 1.56, 0.05]} />
+        <mesh castShadow name="Cube124" geometry={nodes.Cube124.geometry} material={materials['Material.090']} position={[-7.533, 2.385, -1.874]} rotation={[-Math.PI / 2, Math.PI / 2, 0]} scale={[0.05, 1.66, 0.05]} />
+        <mesh castShadow name="Cube125" geometry={nodes.Cube125.geometry} material={materials['Material.091']} position={[-1.093, 2.385, -3.794]} rotation={[0, 0, -Math.PI / 2]} scale={[0.05, 6.51, 0.05]} />
+        <mesh castShadow name="Cube126" geometry={nodes.Cube126.geometry} material={materials['Material.150']} position={[19.439, 5.955, 4.096]} rotation={[Math.PI / 2, Math.PI / 2, 0]} scale={[-0.45, -1.91, -0.05]} />
         <group name="Cube127" position={[19.594, 3.975, -1.521]} rotation={[Math.PI / 2, Math.PI / 2, 0]} scale={[-1.65, -1.8, -0.05]}>
-          <mesh name="Cube127_1" geometry={nodes.Cube127_1.geometry} material={materials['Glass.034']} />
-          <mesh name="Cube127_2" geometry={nodes.Cube127_2.geometry} material={materials['Glass.035']} />
+          <mesh castShadow name="Cube127_1" geometry={nodes.Cube127_1.geometry} material={materials['Glass.034']} />
+          <mesh castShadow name="Cube127_2" geometry={nodes.Cube127_2.geometry} material={materials['Glass.035']} />
         </group>
-        <mesh name="Cube128" geometry={nodes.Cube128.geometry} material={materials['Material.150']} position={[19.449, 5.955, -2.114]} rotation={[Math.PI / 2, Math.PI / 2, 0]} scale={[-0.45, -1.91, -0.05]} />
-        <mesh name="Cube130" geometry={nodes.Cube130.geometry} material={materials['Material.093']} position={[19.603, 3.541, 5.56]} rotation={[-Math.PI, Math.PI / 2, 0]} scale={[-0.3, -3, -0.25]} />
-        <mesh name="Cube131" geometry={nodes.Cube131.geometry} material={materials['Material.094']} position={[19.479, 2.385, 3.856]} rotation={[Math.PI / 2, Math.PI / 2, 0]} scale={[-0.05, -1.66, -0.05]} />
-        <mesh name="Cube132" geometry={nodes.Cube132.geometry} material={materials['Material.127']} position={[-1.113, 5.955, -3.814]} rotation={[0, 0, -Math.PI / 2]} scale={[0.45, 6.66, 0.1]} />
+        <mesh castShadow name="Cube128" geometry={nodes.Cube128.geometry} material={materials['Material.150']} position={[19.449, 5.955, -2.114]} rotation={[Math.PI / 2, Math.PI / 2, 0]} scale={[-0.45, -1.91, -0.05]} />
+        <mesh castShadow name="Cube130" geometry={nodes.Cube130.geometry} material={materials['Material.093']} position={[19.603, 3.541, 5.56]} rotation={[-Math.PI, Math.PI / 2, 0]} scale={[-0.3, -3, -0.25]} />
+        <mesh castShadow name="Cube131" geometry={nodes.Cube131.geometry} material={materials['Material.094']} position={[19.479, 2.385, 3.856]} rotation={[Math.PI / 2, Math.PI / 2, 0]} scale={[-0.05, -1.66, -0.05]} />
+        <mesh castShadow name="Cube132" geometry={nodes.Cube132.geometry} material={materials['Material.127']} position={[-1.113, 5.955, -3.814]} rotation={[0, 0, -Math.PI / 2]} scale={[0.45, 6.66, 0.1]} />
         <group name="Roller" position={[2.6, 5.405, -3.756]} scale={[2.378, 1.714, 1]}>
-          <mesh name="Roller_1" geometry={nodes.Roller_1.geometry} material={nodes.Roller_1.material} />
-          <mesh name="Roller_2" geometry={nodes.Roller_2.geometry} material={materials['Material.118']} />
-          <mesh name="SideL" geometry={nodes.SideL.geometry} material={materials['Plastic_roller_material.003']} position={[0.026, 0, 0]} rotation={[Math.PI, 0, Math.PI]} />
-          <mesh name="SideR" geometry={nodes.SideR.geometry} material={materials['Plastic_roller_material.003']} position={[0.974, 0, 0]} />
-          <mesh name="String" geometry={nodes.String.geometry} material={materials.String_material} position={[1.015, -0.38, 0]} />
+          <mesh castShadow name="Roller_1" geometry={nodes.Roller_1.geometry} material={nodes.Roller_1.material} />
+          <mesh castShadow name="Roller_2" geometry={nodes.Roller_2.geometry} material={materials['Material.118']} />
+          <mesh castShadow name="SideL" geometry={nodes.SideL.geometry} material={materials['Plastic_roller_material.003']} position={[0.026, 0, 0]} rotation={[Math.PI, 0, Math.PI]} />
+          <mesh castShadow name="SideR" geometry={nodes.SideR.geometry} material={materials['Plastic_roller_material.003']} position={[0.974, 0, 0]} />
+          <mesh castShadow name="String" geometry={nodes.String.geometry} material={materials.String_material} position={[1.015, -0.38, 0]} />
         </group>
-        <mesh name="Roller_bottom006" geometry={nodes.Roller_bottom006.geometry} material={materials['Material.025']} position={[4.667, -8.287, 19.879]} />
+        <mesh castShadow name="Roller_bottom006" geometry={nodes.Roller_bottom006.geometry} material={materials['Material.025']} position={[4.667, -8.287, 19.879]} />
         <group name="Cylinder18_BlackMetal_0" position={[34.375, -113.453, -22.757]} rotation={[0, 0, -3.11]} scale={[0.015, 0.015, 0.012]}>
-          <mesh name="Cylinder18_BlackMetal_0_1" geometry={nodes.Cylinder18_BlackMetal_0_1.geometry} material={materials.BlackMetal} />
-          <mesh name="Cylinder18_BlackMetal_0_2" geometry={nodes.Cylinder18_BlackMetal_0_2.geometry} material={materials.Matteplastic} />
-          <mesh name="Cylinder18_BlackMetal_0_3" geometry={nodes.Cylinder18_BlackMetal_0_3.geometry} material={materials.Lether} />
-          <mesh name="Cylinder18_BlackMetal_0_4" geometry={nodes.Cylinder18_BlackMetal_0_4.geometry} material={materials.Chairback} />
-          <mesh name="Cylinder18_BlackMetal_0_5" geometry={nodes.Cylinder18_BlackMetal_0_5.geometry} material={materials.Chrome} />
+          <mesh castShadow name="Cylinder18_BlackMetal_0_1" geometry={nodes.Cylinder18_BlackMetal_0_1.geometry} material={materials.BlackMetal} />
+          <mesh castShadow name="Cylinder18_BlackMetal_0_2" geometry={nodes.Cylinder18_BlackMetal_0_2.geometry} material={materials.Matteplastic} />
+          <mesh castShadow name="Cylinder18_BlackMetal_0_3" geometry={nodes.Cylinder18_BlackMetal_0_3.geometry} material={materials.Lether} />
+          <mesh castShadow name="Cylinder18_BlackMetal_0_4" geometry={nodes.Cylinder18_BlackMetal_0_4.geometry} material={materials.Chairback} />
+          <mesh castShadow name="Cylinder18_BlackMetal_0_5" geometry={nodes.Cylinder18_BlackMetal_0_5.geometry} material={materials.Chrome} />
         </group>
-        <mesh name="tvCabinet3_wood_0001" geometry={nodes.tvCabinet3_wood_0001.geometry} material={materials['wood.001']} position={[4.784, -2.797, 22.731]} rotation={[0, 0, -3.102]} scale={[0.028, 0.018, 0.022]} />
+        <mesh castShadow name="tvCabinet3_wood_0001" geometry={nodes.tvCabinet3_wood_0001.geometry} material={materials['wood.001']} position={[4.784, -2.797, 22.731]} rotation={[0, 0, -3.102]} scale={[0.028, 0.018, 0.022]} />
         <group name="Roller001" position={[-6.972, 5.405, -3.756]} scale={[2.378, 1.714, 1]}>
-          <mesh name="Roller001_1" geometry={nodes.Roller001_1.geometry} material={nodes.Roller001_1.material} />
-          <mesh name="Roller001_2" geometry={nodes.Roller001_2.geometry} material={materials['Material.124']} />
+          <mesh castShadow name="Roller001_1" geometry={nodes.Roller001_1.geometry} material={nodes.Roller001_1.material} />
+          <mesh castShadow name="Roller001_2" geometry={nodes.Roller001_2.geometry} material={materials['Material.124']} />
         </group>
         <group name="Roller002" position={[-3.742, 5.405, -3.756]} scale={[2.378, 1.714, 1]}>
-          <mesh name="Roller002_1" geometry={nodes.Roller002_1.geometry} material={nodes.Roller002_1.material} />
-          <mesh name="Roller002_2" geometry={nodes.Roller002_2.geometry} material={materials['Material.123']} />
+          <mesh castShadow name="Roller002_1" geometry={nodes.Roller002_1.geometry} material={nodes.Roller002_1.material} />
+          <mesh castShadow name="Roller002_2" geometry={nodes.Roller002_2.geometry} material={materials['Material.123']} />
         </group>
         <group name="Roller003" position={[-0.509, 5.405, -3.756]} scale={[2.378, 1.714, 1]}>
-          <mesh name="Roller003_1" geometry={nodes.Roller003_1.geometry} material={nodes.Roller003_1.material} />
-          <mesh name="Roller003_2" geometry={nodes.Roller003_2.geometry} material={materials['Material.122']} />
+          <mesh castShadow name="Roller003_1" geometry={nodes.Roller003_1.geometry} material={nodes.Roller003_1.material} />
+          <mesh castShadow name="Roller003_2" geometry={nodes.Roller003_2.geometry} material={materials['Material.122']} />
         </group>
         <group name="Roller004" position={[6.75, 5.417, -3.755]} scale={[2.378, 1.714, 1]}>
-          <mesh name="Roller004_1" geometry={nodes.Roller004_1.geometry} material={nodes.Roller004_1.material} />
-          <mesh name="Roller004_2" geometry={nodes.Roller004_2.geometry} material={materials['Material.125']} />
+          <mesh castShadow name="Roller004_1" geometry={nodes.Roller004_1.geometry} material={nodes.Roller004_1.material} />
+          <mesh castShadow name="Roller004_2" geometry={nodes.Roller004_2.geometry} material={materials['Material.125']} />
         </group>
         <group name="Roller005" position={[10.058, 5.405, -3.756]} scale={[2.378, 1.714, 1]}>
-          <mesh name="Roller005_1" geometry={nodes.Roller005_1.geometry} material={materials['Material.126']} />
-          <mesh name="Roller005_2" geometry={nodes.Roller005_2.geometry} material={nodes.Roller005_2.material} />
+          <mesh castShadow name="Roller005_1" geometry={nodes.Roller005_1.geometry} material={materials['Material.126']} />
+          <mesh castShadow name="Roller005_2" geometry={nodes.Roller005_2.geometry} material={nodes.Roller005_2.material} />
         </group>
         <group name="Roller006" position={[16.544, 5.405, -3.756]} scale={[2.378, 1.714, 1]}>
-          <mesh name="Roller006_1" geometry={nodes.Roller006_1.geometry} material={nodes.Roller006_1.material} />
-          <mesh name="Roller006_2" geometry={nodes.Roller006_2.geometry} material={materials['Material.003']} />
+          <mesh castShadow name="Roller006_1" geometry={nodes.Roller006_1.geometry} material={nodes.Roller006_1.material} />
+          <mesh castShadow name="Roller006_2" geometry={nodes.Roller006_2.geometry} material={materials['Material.003']} />
         </group>
         <group name="Roller007" position={[13.513, 5.405, -3.756]} scale={[2.378, 1.714, 1]}>
-          <mesh name="Roller007_1" geometry={nodes.Roller007_1.geometry} material={nodes.Roller007_1.material} />
-          <mesh name="Roller007_2" geometry={nodes.Roller007_2.geometry} material={materials['Material.010']} />
+          <mesh castShadow name="Roller007_1" geometry={nodes.Roller007_1.geometry} material={nodes.Roller007_1.material} />
+          <mesh castShadow name="Roller007_2" geometry={nodes.Roller007_2.geometry} material={materials['Material.010']} />
         </group>
-        <mesh name="Plane010" geometry={nodes.Plane010.geometry} material={nodes.Plane010.material} position={[-7.432, 5.918, 0.949]} rotation={[0, 0, 1.56]} scale={[0.48, 1, 0.142]} />
-        <mesh name="Plane011" geometry={nodes.Plane011.geometry} material={nodes.Plane011.material} position={[-7.432, 5.918, 0.226]} rotation={[0, 0, 1.56]} scale={[0.48, 1, 0.142]} />
-        <mesh name="Plane012" geometry={nodes.Plane012.geometry} material={nodes.Plane012.material} position={[-7.432, 5.918, 1.651]} rotation={[0, 0, 1.56]} scale={[0.48, 1, 0.142]} />
-        <mesh name="Plane013" geometry={nodes.Plane013.geometry} material={nodes.Plane013.material} position={[19.34, 5.918, 1.723]} rotation={[0, 0, 1.56]} scale={[0.48, 1, 0.142]} />
-        <mesh name="Plane014" geometry={nodes.Plane014.geometry} material={nodes.Plane014.material} position={[19.34, 5.918, 0.226]} rotation={[0, 0, 1.56]} scale={[0.48, 1, 0.142]} />
-        <mesh name="Plane015" geometry={nodes.Plane015.geometry} material={nodes.Plane015.material} position={[19.34, 5.918, 1.017]} rotation={[0, 0, 1.56]} scale={[0.48, 1, 0.142]} />
-        <mesh name="Plane016" geometry={nodes.Plane016.geometry} material={nodes.Plane016.material} position={[17.246, 6.379, 1.716]} rotation={[0, 0, -0.003]} scale={[2.131, 1, 0.142]} />
-        <mesh name="Plane017" geometry={nodes.Plane017.geometry} material={nodes.Plane017.material} position={[17.696, 6.379, 0.221]} rotation={[0, 0, -0.003]} scale={[1.672, 1, 0.142]} />
-        <mesh name="Plane018" geometry={nodes.Plane018.geometry} material={nodes.Plane018.material} position={[18.052, 6.379, 1.008]} rotation={[0, 0, -0.003]} scale={[1.308, 1, 0.142]} />
-        <mesh name="Plane020" geometry={nodes.Plane020.geometry} material={nodes.Plane020.material} position={[-5.672, 6.379, 0.239]} rotation={[0, 0, -0.003]} scale={[2.497, 1, 0.142]} />
-        <mesh name="Plane022" geometry={nodes.Plane022.geometry} material={nodes.Plane022.material} position={[-5.672, 6.379, 0.959]} rotation={[0, 0, -0.003]} scale={[1.747, 1, 0.142]} />
-        <mesh name="Plane023" geometry={nodes.Plane023.geometry} material={nodes.Plane023.material} position={[-5.672, 6.379, 1.649]} rotation={[0, 0, -0.003]} scale={[2.097, 1, 0.142]} />
-        <mesh name="Cube054" geometry={nodes.Cube054.geometry} material={nodes.Cube054.material} position={[5.937, 4.975, -4.281]} scale={[15.375, 4.05, 0]} />
-        <mesh name="Cube074" geometry={nodes.Cube074.geometry} material={nodes.Cube074.material} position={[5.937, 4.975, 6.059]} scale={[15.375, 4.05, 0]} />
+        <mesh castShadow name="Plane010" geometry={nodes.Plane010.geometry} material={nodes.Plane010.material} position={[-7.432, 5.918, 0.949]} rotation={[0, 0, 1.56]} scale={[0.48, 1, 0.142]} />
+        <mesh castShadow name="Plane011" geometry={nodes.Plane011.geometry} material={nodes.Plane011.material} position={[-7.432, 5.918, 0.226]} rotation={[0, 0, 1.56]} scale={[0.48, 1, 0.142]} />
+        <mesh castShadow name="Plane012" geometry={nodes.Plane012.geometry} material={nodes.Plane012.material} position={[-7.432, 5.918, 1.651]} rotation={[0, 0, 1.56]} scale={[0.48, 1, 0.142]} />
+        <mesh castShadow name="Plane013" geometry={nodes.Plane013.geometry} material={nodes.Plane013.material} position={[19.34, 5.918, 1.723]} rotation={[0, 0, 1.56]} scale={[0.48, 1, 0.142]} />
+        <mesh castShadow name="Plane014" geometry={nodes.Plane014.geometry} material={nodes.Plane014.material} position={[19.34, 5.918, 0.226]} rotation={[0, 0, 1.56]} scale={[0.48, 1, 0.142]} />
+        <mesh castShadow name="Plane015" geometry={nodes.Plane015.geometry} material={nodes.Plane015.material} position={[19.34, 5.918, 1.017]} rotation={[0, 0, 1.56]} scale={[0.48, 1, 0.142]} />
+        <mesh castShadow name="Plane016" geometry={nodes.Plane016.geometry} material={nodes.Plane016.material} position={[17.246, 6.379, 1.716]} rotation={[0, 0, -0.003]} scale={[2.131, 1, 0.142]} />
+        <mesh castShadow name="Plane017" geometry={nodes.Plane017.geometry} material={nodes.Plane017.material} position={[17.696, 6.379, 0.221]} rotation={[0, 0, -0.003]} scale={[1.672, 1, 0.142]} />
+        <mesh castShadow name="Plane018" geometry={nodes.Plane018.geometry} material={nodes.Plane018.material} position={[18.052, 6.379, 1.008]} rotation={[0, 0, -0.003]} scale={[1.308, 1, 0.142]} />
+        <mesh castShadow name="Plane020" geometry={nodes.Plane020.geometry} material={nodes.Plane020.material} position={[-5.672, 6.379, 0.239]} rotation={[0, 0, -0.003]} scale={[2.497, 1, 0.142]} />
+        <mesh castShadow name="Plane022" geometry={nodes.Plane022.geometry} material={nodes.Plane022.material} position={[-5.672, 6.379, 0.959]} rotation={[0, 0, -0.003]} scale={[1.747, 1, 0.142]} />
+        <mesh castShadow name="Plane023" geometry={nodes.Plane023.geometry} material={nodes.Plane023.material} position={[-5.672, 6.379, 1.649]} rotation={[0, 0, -0.003]} scale={[2.097, 1, 0.142]} />
+        <mesh castShadow name="Cube054" geometry={nodes.Cube054.geometry} material={nodes.Cube054.material} position={[5.937, 4.975, -4.281]} scale={[15.375, 4.05, 0]} />
+        <mesh castShadow name="Cube074" geometry={nodes.Cube074.geometry} material={nodes.Cube074.material} position={[5.937, 4.975, 6.059]} scale={[15.375, 4.05, 0]} />
       </group>
     </group>
   )

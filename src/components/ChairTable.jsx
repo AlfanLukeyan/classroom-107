@@ -13,13 +13,13 @@ export function ChairTable(props) {
       <group position={[4.667, -6.587, 19.879]} rotation={[-Math.PI / 2, 0, 0]}>
         <group rotation={[Math.PI / 2, 0, 0]}>
           <group rotation={[-Math.PI / 2, 0, -Math.PI]} scale={119}>
-            <mesh castShadow receiveShadow geometry={nodes.SchoolChair_SchoolChair_Mat_0010.geometry} material={materials['Material.068']} position={[0.017, -0.167, 0.061]} rotation={[0, 0, 1.516]} scale={[0.011, 0.013, 0.013]} />
+            <mesh castShadow geometry={nodes.SchoolChair_SchoolChair_Mat_0010.geometry} material={materials['Material.068']} position={[0.017, -0.167, 0.061]} rotation={[0, 0, 1.516]} scale={[0.011, 0.013, 0.013]} />
           </group>
         </group>
       </group>
       <group position={[3.719, 1.486, 4.278]} scale={[0.521, 0.601, 0.385]}>
-        <mesh castShadow receiveShadow geometry={nodes.Cube153.geometry} material={materials['Material.079']} />
-        <mesh castShadow receiveShadow geometry={nodes.Cube153_1.geometry} material={materials['Material.080']} />
+        <mesh castShadow geometry={nodes.Cube153.geometry} material={materials['Material.079']} />
+        <mesh castShadow geometry={nodes.Cube153_1.geometry} material={materials['Material.080']} />
       </group>
     </group>
   )

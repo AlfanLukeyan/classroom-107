@@ -49,22 +49,18 @@ export const Experience = () => {
   return (
     <>
       <OrbitControls />
-      <ambientLight intensity={0.4} />
-      <pointLight position={[0, 0, 5]} color={'#FFA500'} intensity={0.02} />
-      <pointLight position={[20, 0, 5]} color={'#FFA500'} intensity={0.02} />
-      <pointLight position={[20, 0, -5]} color={'#FFA500'} intensity={0.02} />
-      <pointLight position={[25, 0, -5]} color={'#FFA500'} intensity={0.02} />
-      <pointLight position={[25, 0, 5]} color={'#FFA500'} intensity={0.02} />
-      <pointLight position={[10, 0, 5]} color={'#FFA500'} intensity={0.02} />
-      <pointLight position={[10, 0, -5]} color={'#FFA500'} intensity={0.02} />
+      <pointLight castShadow position={[-5, 0, 5]} color={'#FDF5E6'} intensity={1.5} distance={50} decay={10} />
+      <pointLight castShadow position={[-5, 0, -5]} color={'#FDF5E6'} intensity={1.5} distance={50} decay={10}/>
+      <pointLight castShadow position={[0, 0, 5]} color={'#FDF5E6'} intensity={1.5} distance={50} decay={10} />
+      <pointLight castShadow position={[0, 0, -5]} color={'#FDF5E6'} intensity={1.5} distance={50} decay={10}/>
+      <pointLight castShadow position={[5, 0, 5]} color={'#FDF5E6'} intensity={1.5} distance={50} decay={10}/>
+      <pointLight castShadow position={[5, 0, -5]} color={'#FDF5E6'} intensity={1.5} distance={50} decay={10} />
+      <pointLight castShadow position={[10, 0, 5]} color={'#FDF5E6'} intensity={1.5} distance={50} decay={10}/>
+      <pointLight castShadow position={[10, 0, -5]} color={'#FDF5E6'} intensity={1.5} distance={50} decay={10}/>
+      <pointLight castShadow position={[15, 0, 5]} color={'#FDF5E6'} intensity={1.5} distance={50} decay={10}/>
+      <pointLight castShadow position={[15, 0, -5]} color={'#FDF5E6'} intensity={1.5} distance={50} decay={10}/>
       <Classroom position={[0, -4, -1]} />
-
       {chair_table_positions.map((position, i) => <ChairTable key={i} position={position} />)}
-      {/* Shadow for my table chair */}
-      <mesh receiveShadow rotation={[-Math.PI / 2, 0, 0]} position={[0, -4, -1]}>
-        <planeBufferGeometry attach="geometry" args={[100, 100]} />
-        <shadowMaterial attach="material" opacity={0.3} />
-      </mesh>
     </>
   );
 };
